@@ -1,7 +1,7 @@
 [submodule "qmk_compiler"]
 	path = qmk_compiler
-	url = https://github.com/qmk/qmk_compiler.git
-	branch = .
+	url = https://github.com/simmessa/qmk_compiler.git
+	branch = annepro_stack
 [submodule "qmk_api"]
 	path = qmk_api
 	url = https://github.com/qmk/qmk_api.git
