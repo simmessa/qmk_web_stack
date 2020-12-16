@@ -8,8 +8,8 @@ services:
     environment:
       PYTHONUNBUFFERED: 1
       API_URL: http://qmk_api:5001/
-      #QMK_GIT_URL: https://github.com/qmk/qmk_firmware.git
-      #QMK_GIT_BRANCH: master
+      QMK_GIT_URL: https://github.com/simmessa/qmk_firmware-annepro.git
+      QMK_GIT_BRANCH: keyboard-annepro2
       REDIS_HOST: redis
       RELOAD: 1
       S3_HOST: http://minio:9000
@@ -63,8 +63,8 @@ services:
       PYTHONUNBUFFERED: 1
       API_URL: http://qmk_api:5001/
       LOG_LEVEL: DEBUG
-      #QMK_GIT_URL: https://github.com/qmk/qmk_firmware.git
-      #QMK_GIT_BRANCH: master
+      QMK_GIT_URL: https://github.com/simmessa/qmk_firmware-annepro.git
+      QMK_GIT_BRANCH: keyboard-annepro2
       REDIS_HOST: redis
       RELOAD: 1
       S3_HOST: http://minio:9000
